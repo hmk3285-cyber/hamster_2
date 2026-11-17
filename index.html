@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>햄스터봇 활동지</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:20px;
+    font-family:'Malgun Gothic',sans-serif;
+    background:linear-gradient(to bottom,#dff4ff,#f8fff0);
+}
+
+.sheet{
+    max-width:1100px;
+    margin:auto;
+    background:white;
+    border-radius:30px;
+    padding:30px;
+    box-shadow:0 0 25px rgba(0,0,0,0.15);
+}
+
+h1{
+    text-align:center;
+    font-size:58px;
+    margin:0;
+    background:linear-gradient(
+        90deg,
+        #ff6b6b,
+        #ffb703,
+        #38b000,
+        #0096c7,
+        #9d4edd
+    );
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.subtitle{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    margin:10px 0 30px;
+}
+
+.section{
+    margin-bottom:25px;
+    padding:20px;
+    border-radius:25px;
+}
+
+.blue{
+    background:#eef8ff;
+    border:4px solid #4dabf7;
+}
+
+.green{
+    background:#f0fff4;
+    border:4px solid #51cf66;
+}
+
+.orange{
+    background:#fff8e8;
+    border:4px solid #ffa94d;
+}
+
+.purple{
+    background:#f8f0ff;
+    border:4px solid #b197fc;
+}
+
+.num{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin-right:10px;
+}
+
+.blue .num{background:#228be6;}
+.green .num{background:#37b24d;}
+.orange .num{background:#f76707;}
+.purple .num{background:#7048e8;}
+
+h2{
+    display:flex;
+    align-items:center;
+    margin-top:0;
+    font-size:34px;
+}
+
+.line{
+    margin:15px 0;
+    font-size:24px;
+}
+
+input{
+    width:90px;
+    padding:10px;
+    font-size:22px;
+    border-radius:12px;
+    border:2px solid #ccc;
+    text-align:center;
+}
+
+.mission{
+    font-size:24px;
+    margin:15px 0;
+}
+
+.footer{
+    text-align:center;
+    color:#666;
+    margin-top:20px;
+    font-size:18px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="sheet">
+
+<h1>창의 융합 SW 교육</h1>
+<div class="subtitle">🐹 햄스터봇 활동지 🐹</div>
+
+<div class="section blue">
+
+<h2><span class="num">1</span> 회전 경기</h2>
+
+<div class="line">
+왼쪽바퀴 <input type="number">
+오른쪽바퀴 <input type="number">
+으로 정하기
+</div>
+
+<div class="line">
+<input type="number"> 초 기다리기
+</div>
+
+<div class="line">
+🛑 정지하기
+</div>
+
+</div>
+
+
+<div class="section green">
+
+<h2><span class="num">2</span> 반환점 돌아오기</h2>
+
+<div class="line">
+왼쪽바퀴 <input type="number">
+오른쪽바퀴 <input type="number">
+으로 정하기
+</div>
+
+<div class="line">
+<input type="number"> 초 기다리기
+</div>
+
+<hr>
+
+<div class="line">
+왼쪽바퀴 <input type="number">
+오른쪽바퀴 <input type="number">
+으로 정하기
+</div>
+
+<div class="line">
+<input type="number"> 초 기다리기
+</div>
+
+<hr>
+
+<div class="line">
+왼쪽바퀴 <input type="number">
+오른쪽바퀴 <input type="number">
+으로 정하기
+</div>
+
+<div class="line">
+<input type="number"> 초 기다리기
+</div>
+
+<div class="line">
+🛑 정지하기
+</div>
+
+</div>
+
+
+<div class="section orange">
+
+<h2><span class="num">3</span> 지그재그 달리기</h2>
+
+<div class="line">
+왼쪽바퀴 <input type="number">
+오른쪽바퀴 <input type="number">
+으로 정하기
+</div>
+
+<div class="line">
+<input type="number"> 초 기다리기
+</div>
+
+<hr>
+
+<div class="line">
+왼쪽바퀴 <input type="number">
+오른쪽바퀴 <input type="number">
+으로 정하기
+</div>
+
+<div class="line">
+<input type="number"> 초 기다리기
+</div>
+
+<div class="line">
+🛑 정지하기
+</div>
+
+</div>
+
+
+<div class="section purple">
+
+<h2><span class="num">4</span> 응용 미션</h2>
+
+<div class="mission">
+🚦 나만의 출발신호 만들기
+</div>
+
+<textarea
+style="width:100%;height:100px;font-size:20px;border-radius:15px;padding:10px;"
+placeholder="LED 켜기/끄기, 버저 소리 내기 등을 활용하여 작성해 보세요"></textarea>
+
+<br><br>
+
+<div class="mission">
+🏁 나만의 도착신호 만들기
+</div>
+
+<textarea
+style="width:100%;height:100px;font-size:20px;border-radius:15px;padding:10px;"
+placeholder="LED 켜기/끄기, 버저 소리 내기 등을 활용하여 작성해 보세요"></textarea>
+
+</div>
+
+<div class="footer">
+🌼 저장 없이 입력만 하는 활동지입니다. 새로고침하면 내용이 초기화됩니다. 🌼
+</div>
+
+</div>
+
+</body>
+</html>
